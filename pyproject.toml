@@ -28,6 +28,7 @@ bandit = "^1.7.9"
 
 [tool.pytest.ini_options]
 addopts = "--cov=viper --cov-report xml"
+log_cli="true"
 
 [build-system]
 requires = ["poetry-core"]
